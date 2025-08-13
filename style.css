@@ -1,0 +1,52 @@
+ body {
+      font-family: Arial, sans-serif;
+      color: #fff;
+      text-align: center;
+      transition: background-color 0.5s;
+      margin: 0;
+      padding: 2rem;
+    }
+
+    /* Dark mode style */
+    body.dark {
+      background-color: #121212;
+      color: white;
+    }
+
+    #ErrorMsg{
+        padding-top: 24px;
+        color: rgb(85, 22, 231);
+    }
+
+    /*-------Weather Application-------*/
+    
+    /* Weather section styling */
+    .weather {
+      margin-top: 2rem;
+    }
+
+     /* Weather icon size */
+    #weatherIcon {
+      width: 100px;
+      height: 100px;
+    }
+
+    /* Forecast layout */
+    .forecast {
+      margin-top: 2rem;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    /* Each day box style in forecast */
+    .day {
+      margin: 1rem;
+      padding: 1rem;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      border-radius: 8px;
+      width: 120px;
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    /*-------End Weather Application-------*/

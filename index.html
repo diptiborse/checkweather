@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Weather App</h1>
+
+    <!--<button id="toggleTheme">Toggle Theme</button>-->
+
+    <!-- City input for manual search -->
+    <div>
+        <input type="text" id="cityInput" placeholder="Enter city name" />
+        <button onclick="searchCity()">Search</button>
+        <div id="ErrorMsg">..</div>
+    </div>
+    <!-- End City input for manual search -->
+
+    <!-- Weather info display -->
+    <div class="weather">
+        <img id="weatherIcon" src="../images/weaatherIcon.png" alt="Weather Icon" />
+        <p id="location">Locating...</p>
+        <p id="temperature"></p>
+        <p id="description"></p>
+    </div>
+    <!-- End Weather info display -->
+
+    <!-- Forecast container -->
+    <div class="forecast" id="forecast"></div>
+    <!-- End Forecast container -->
+</body>
+</html>
